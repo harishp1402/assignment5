@@ -42,10 +42,10 @@ func main() {
 		fmt.Printf("%v and number is %v\n", i, node.data)
 	}
 	values.Display()
-	// for j := 0; j < size; j++ {
-	// 	values.Delete(81)
-	// }
-	// values.Display()
+	 for j := 0; j < size; j++ {
+	 	values.Delete(81)
+	 }
+	 values.Display()
 }
 
 func (l *List) insertNode(newNode *Node) {
